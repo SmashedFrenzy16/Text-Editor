@@ -7,7 +7,7 @@ root.geometry("600x600")
 
 title = Label(root, text='WordEdit', font=('bold', 20), bg='light grey').pack()
 
-
+scrollbar = Scrollbar(root).pack(side = RIGHT, fill = Y)
 
 
 
